@@ -38,7 +38,7 @@ class TelegramAuthBot:
         self.user_first_start = {}
         self.active_bets = {}  # اضافه شد
         self.group_bets = {}   # اضافه شد
-        self.channel_username = "@MAYKI_1_SHOP_PUBG"
+        self.channel_username = "@vip_6ix9ine"
         self.owner_id = 6480226600
         
         # دیتابیس کاربران
@@ -119,7 +119,7 @@ class TelegramAuthBot:
     def create_welcome_keyboard(self):
         keyboard = [
             [
-                InlineKeyboardButton("📥 پیوستن", url="https://t.me/MAYKI_1_SHOP_PUBG"),
+                InlineKeyboardButton("📥 پیوستن", url="https://t.me/vip_6ix9ine"),
                 InlineKeyboardButton("✅ بررسی", callback_data="check")
             ]
         ]
@@ -136,7 +136,7 @@ class TelegramAuthBot:
                 InlineKeyboardButton("🎫 لینک دعوت", callback_data="invite")
             ],
             [
-                InlineKeyboardButton("🛟 پشتیبانی", url="https://t.me/MAYKI_1_SHOP_PUBG")
+                InlineKeyboardButton("🛟 پشتیبانی", url="https://t.me/mr_amin_vip")
             ]
         ]
         return InlineKeyboardMarkup(keyboard)
@@ -300,7 +300,7 @@ class TelegramAuthBot:
         welcome_text = (
             "🌐 𝙅𝙤𝙞𝙣 𝙊𝙪𝙧 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 💫\n\n"
             "Before using the bot, make sure you've joined our official channel 💎\n"
-            "👉 𝚃𝚊𝚙 𝚃𝚘 𝙹𝚘𝚞𝚛𝚗: [@MAYKI_1_SHOP_PUBG]\n"
+            "👉 𝚃𝚊𝚙 𝚃𝚘 𝙹𝚘𝚞𝚛𝚗: [@vip_6ix9ine]\n"
             "🚀 After joining, come back and tap \"✅ بررسی\""
         )
         
