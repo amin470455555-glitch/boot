@@ -1546,7 +1546,7 @@ class TelegramAuthBot:
 # تنظیمات اصلی
 if __name__ == "__main__":
     BOT_TOKEN = "8348486326:AAFTnzN46PPya_OjV5dOMlCC7J4MRrsa0r8"
-    API_ID = 2076999, 
+    API_ID = 2076999 
     API_HASH = "024468605f872acb0fee68e613c66150"
     
     bot = TelegramAuthBot(BOT_TOKEN, API_ID, API_HASH)
